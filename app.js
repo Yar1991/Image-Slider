@@ -58,19 +58,19 @@ image.addEventListener("touchstart", () => {
 
 // --- keyboard --- //
 
-document.addEventListener("keydown", (e) => {
-  let target = e.key;
-  if (target === "ArrowLeft" || target === "ArrowRight") {
-    anime({
-      targets: image,
-      duration: 600,
-      opacity: [0, 1],
-      translateY: [50, 0],
-      easing: "easeOutQuint",
-    });
-    updateSlide();
-  }
-});
+// document.addEventListener("keydown", (e) => {
+//   let target = e.key;
+//   if (target === "ArrowLeft" || target === "ArrowRight") {
+//     anime({
+//       targets: image,
+//       duration: 600,
+//       opacity: [0, 1],
+//       translateY: [50, 0],
+//       easing: "easeOutQuint",
+//     });
+//     updateSlide();
+//   }
+// });
 
 // *** functions *** //
 
