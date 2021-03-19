@@ -7,7 +7,7 @@
 html,
 body {
   font-family: "Lato", sans-serif;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   color: #fff;
   background: rgba(1, 109, 55, 0.4);
   /* background: rgba(1, 109, 55, 0.3); --- for airpods */
@@ -93,14 +93,7 @@ body {
 }
 
 @media screen and (max-width: 649px) {
-  body {
-    height: 100vh;
-    width: 100vw;
-  }
   .container {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
     padding: 2rem;
   }
   .slider-box {
