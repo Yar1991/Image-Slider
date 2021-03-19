@@ -90,7 +90,9 @@ body {
 
 @media screen and (max-width: 599px) {
   .container {
-    padding: 3rem;
+    height: 100vh;
+    overflow: hidden;
+    padding: 2rem;
   }
   .slider-box {
     width: 100%;
@@ -101,6 +103,7 @@ body {
   }
   .slide-img {
     height: 45%;
+    user-select: none;
   }
   .buy-btn {
     width: 8.5rem;

@@ -124,7 +124,7 @@ function touchSlide(e) {
   let target = e.touches[0].pageX;
   let slideTrack = target - (window.innerWidth - target);
   image.style.transform = `translateX(${slideTrack}px)`;
-  if (slideTrack > 250 || slideTrack < -250) {
+  if (slideTrack > 200 || slideTrack < -200) {
     updateSlide();
     removeSlide();
   }
