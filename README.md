@@ -9,5 +9,6 @@ It works on both mobile and desktop. Just grab a picture and slide to the right 
 - Javascript
 - Love
 
-The screenshot:
+### The screenshot:
+
 ![](./Touch-Slide.png)
