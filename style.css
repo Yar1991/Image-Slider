@@ -93,9 +93,13 @@ body {
 }
 
 @media screen and (max-width: 649px) {
-  .container {
+  body {
     height: 100vh;
     width: 100vw;
+  }
+  .container {
+    height: 100%;
+    width: 100%;
     overflow: hidden;
     padding: 2rem;
   }
