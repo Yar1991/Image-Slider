@@ -33,6 +33,10 @@ const imgProperties = [
 
 // --- mouse --- //
 
+window.addEventListener("scroll", (e) => {
+  e.preventDefault();
+});
+
 image.addEventListener("dragstart", (e) => {
   e.preventDefault();
 });
@@ -58,19 +62,19 @@ image.addEventListener("touchstart", () => {
 
 // --- keyboard --- //
 
-// document.addEventListener("keydown", (e) => {
-//   let target = e.key;
-//   if (target === "ArrowLeft" || target === "ArrowRight") {
-//     anime({
-//       targets: image,
-//       duration: 600,
-//       opacity: [0, 1],
-//       translateY: [50, 0],
-//       easing: "easeOutQuint",
-//     });
-//     updateSlide();
-//   }
-// });
+document.addEventListener("keydown", (e) => {
+  let target = e.key;
+  if (target === "ArrowLeft" || target === "ArrowRight") {
+    anime({
+      targets: image,
+      duration: 600,
+      opacity: [0, 1],
+      translateY: [50, 0],
+      easing: "easeOutQuint",
+    });
+    updateSlide();
+  }
+});
 
 // *** functions *** //
 
